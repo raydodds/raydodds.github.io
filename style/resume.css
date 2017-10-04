@@ -17,7 +17,7 @@ body {
 	border-left: 6px;
 }
 
-div.col.mainSection:hover{
+.mainSection > div.col:hover{
 	background-color: #D0F8E9
 }
 
