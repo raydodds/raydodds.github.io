@@ -1,0 +1,11 @@
+body {
+	background-color: ##DCEDC8;
+}
+
+.mainSection {
+	border-top: 1px;
+	border-left: 3px;
+	border-radius: 2px;
+	color: black;
+	background-color: ##F1F8E9;
+}
