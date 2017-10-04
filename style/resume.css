@@ -1,11 +1,28 @@
 body {
-	background-color: ##DCEDC8;
+	background-color: #DCEDC8;
 }
 
+
 .mainSection {
-	border-top: 1px;
-	border-left: 3px;
-	border-radius: 2px;
+	margin: 10px
+}
+
+.mainSection > col {
 	color: black;
-	background-color: ##F1F8E9;
+	background-color: #F1F8E9;
+	border: 0px;
+	border-color: black;
+	border-radius: 10px;
+	border-top: 2px;
+	border-left: 6px;
+}
+
+col.mainSection:hover{
+	background-color: #D0F8E9
+}
+
+.mainSection > col-2 {
+	padding: 5px;
+	font-size: 150%;
+	font-weight: bold;
 }
