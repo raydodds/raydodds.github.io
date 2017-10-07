@@ -1,5 +1,5 @@
 body {
-	background-color: #DCEDC8;
+	background-color: #2E7D32;
 }
 
 
@@ -9,7 +9,7 @@ body {
 
 .mainSection > div.col {
 	color: black;
-	background-color: #F1F8E9;
+	background-color: #EFEBE9;
 	border-color: black;
 	border-radius: 10px;
 	border: 0px;
@@ -19,16 +19,18 @@ body {
 }
 
 .mainSection > div.col:hover{
-	background-color: #D0F8E9;
+	background-color: #D7CCC8;
 	-moz-transition: all 500ms ease; /* Firefox */
 	-webkit-transition: all 500ms ease; /* Safari and Chrome */
 	-o-transition: all 500ms ease; /* Opera */
 	transition: all 500ms ease;
 }
 
+<<<<<<< HEAD
 .sectionTitle {
 	padding: 5px;
 	font-size: 150%;
 	font-weight: bold;
 	vertical-align: top;
+	text-align: right;
 }
