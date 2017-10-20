@@ -1,0 +1,15 @@
+body {
+	font-family: Consolas, monospace, monospace;
+	background-color: lightyellow;
+}
+
+.playerHeader {
+	font-size: 200%;
+}
+
+.player {
+	font-size: 20;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
