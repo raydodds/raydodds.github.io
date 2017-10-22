@@ -1,0 +1,31 @@
+body {
+	color: white;
+	background-color: black;
+	font-family: "Consolas", monospace, monospace;
+	font-size: 16;
+}
+
+.centerBox {
+	margin: 100px;
+	padding: 100px;
+	align-self: center;
+	vertical-align: center;
+	text-align: left;
+	width: 250px;
+}
+
+input[type=password] {
+	color: white;
+	background-color: black;
+    border: none;
+    font-family: "Consolas", monospace, monospace;
+    font-size: 16;
+}
+
+#p0 {
+	visibility: visible;
+}
+
+#p1 {
+	visibility: hidden;
+}
