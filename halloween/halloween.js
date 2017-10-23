@@ -1,4 +1,4 @@
-const correctPassword = "longpassword";
+const correctPassword = "BigSpoon";
 const moan = new Audio('./assets/moan.wav');
 const naom = new Audio('./assets/naom.wav');
 let moanplayed = false;

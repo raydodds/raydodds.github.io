@@ -29,3 +29,21 @@ input[type=password] {
 #p1 {
 	visibility: hidden;
 }
+
+.iconButton {
+	min-height: 96px;
+	min-width: 128px;
+	vertical-align: top;
+	align-items: center;
+	position: relative;
+}
+
+.iconTitle {
+	color: black;
+	vertical-align: baseline;
+	overflow-wrap: break-word;
+	/*position: absolute;*/
+	bottom: 5%;
+	left: 5%;
+
+}
