@@ -1,5 +1,5 @@
 
-const rhost = `rayofsunshine.ddns.net`;
+const rhost = `forest.raydodds.com`;
 const rport = `25569`;
 const rapi = `https://use.gameapis.net/mc/query/extensive/`;
 
