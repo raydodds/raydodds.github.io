@@ -38,7 +38,7 @@ body {
 	border-color: black;
 	border: 0px;
 	border-bottom: 2px;
-	border-style: inset;
+	border-style: solid;
 }
 
 .pe_title {
