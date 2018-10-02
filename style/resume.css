@@ -33,3 +33,17 @@ body {
 	vertical-align: top;
 	text-align: right;
 }
+
+.pe_section {
+	border-color: black;
+	border: 0px;
+	border-bottom: 2px;
+}
+
+.pe_title {
+	font-weight: bold;
+}
+
+.pe_date {
+
+}
