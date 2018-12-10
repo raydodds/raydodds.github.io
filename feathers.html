@@ -2379,6 +2379,86 @@
 		generated web pages.
 	</p>
 
+	<h4>
+		The Web Feathers Client
+	</h4>
+	<p>
+		In lieu of a full application, the display of this project is handled by
+		the bottle.py webframework. As the goal of the project was to create SVG
+		images, it made the most sense to display them in a web page. Due to the
+		distaste that both team members feel toward web development in general,
+		a decision was made to keep the webapp bare bones.
+	</p>
+
+	<p>
+		In order to run the app, one must go no further than the
+		<a href='http://github.com/raydodds/feathers'>git repository</a>.
+	</p>
+	<code>
+		<ol>
+			<li>
+				Download the git repository into a directory on your computer.
+			</li>
+
+			<li>
+				If you do not already have them, the following resources will be
+				necessary to run webfeath.py.
+				<ul>
+				<li>
+					A working install of python3
+				</li>
+				<li>
+					Numpy
+				</li>
+				<li>
+					OpenCV2
+				</li>
+				<li>
+					A unix based operating system (This project has not been
+					tested on windows or OSX, but it probably should work on
+					your Mac if you have the right stuff installed.)
+				</li>
+				</ul>
+			</li>
+			<li>
+				In the directory of the project "feathers/website", run
+				"$ python3 ../feather_scraper.py".
+				This will create a directory "feather_images".<br>
+
+				Depending on the speed of your internet connection, this may
+				take quite a while. Tested on the RIT campus, it took about
+				one hour of runtime and used about 300MB of disk space.
+			</li>
+			<li>
+				Now, run "mv feather_images demoAves".
+			</li>
+			<li>
+				Finally, move into the newly renamed demoAves directory and
+				run "bash ../../runSeps.sh". This will finish all of the
+				preprocessing steps needed to host the webapp. <br>
+				This step will probably take longer than it did to download
+				the images, however the results are dependent on your processor
+				this time. Full scale testing of the time and space requirements
+				for this step could not be completed as RIT's 1GB disk space quota
+				ended up being exceeded, though not by this project alone.
+				Best of luck.
+			</li>
+			<li>
+				When ready to run the webapp, move back to the directory
+				"feathers/website" and run "python3 webfeath.py". This will
+				start the website running locally. It will be accessible at
+				<a href="localhost:5000">localhost:5000</a>. Although the load
+				of image processing may impact your computer's performance,
+				given patience, it should run at a reasonable speed. Even a
+				modern toaster should be able to handle the required processing, 
+				as for testing and demonstration, it was run off of an Acer R13
+				chromebook.
+			</li>
+
+
+		</ol>
+	</code>
+
     <h4>
       References
     </h4>
