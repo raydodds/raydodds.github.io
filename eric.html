@@ -3,27 +3,39 @@
 		<title>
 			All the tools
 		</title>
-	</head>
-	<script>
-		function bclick(){
-			
-		}
-	</script>
+		<script>
+			function bclick(){
+				let out = document.getElementById("output");
+				out.innerText = ".";
+				setTimeout(()=>{
+					out.innerText = "..";
+					setTimeout(()=>{
+						out.innerText = "...";
+						setTimeout(()=>{
+							out.innerText = "Your request is being processed."
+						}, 1000);
+					}, 500);
+				}, 500);
+				
+			}
+		</script>
 
+	</head>
 	<body>
 		<center>
-			<button >
+			<button onclick="bclick">
 			<h1>
 				Fix everything
 			</h1>
 			</button>
-			<button>
+			<button onclick="bclick">
 			<h1>
 				Get me software
 			</h1>
 			</button>
 
-			<span id="output">
+			<br>
+			<span style="margin: 2em;" id="output">
 				
 			</span>
 		</center>
