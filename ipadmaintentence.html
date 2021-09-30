@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Maintenence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script>
+        const setTextColor = () => {
+            const randomColor = Math.floor(Math.random()*16777215).toString(16);
+            document.body.style.color = "#" + randomColor;
+        }
+
+        window.onload = function(){setInterval(setTextColor, 5000);}
+    </script>
+</head>
+<body style="color: white; background-color: black; font-family:'Roboto', sans-serif;">
+    
+    <center style="width: 80%; height:80%; padding:10%; padding-top:20%; align-content: center; align-self: center; vertical-align: center;">
+        <h1>
+            This device is under maintenence!
+        </h1>
+        <h1>
+            We are in the process of updating this device to a new room management system.
+        </h1>
+        <h1>
+            This process may take several weeks.
+        </h1>
+        <h1>
+            Thank you for your patience.
+        </h1>
+    </center>
+    
+    
+</body>
+</html>
